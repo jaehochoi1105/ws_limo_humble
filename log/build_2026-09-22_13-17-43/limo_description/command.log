@@ -1,0 +1,6 @@
+Invoking command in '/root/ws_limo_humble/build/limo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ws_limo_humble/src/limo_ros2/limo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ws_limo_humble/install/limo_description
+Invoked command in '/root/ws_limo_humble/build/limo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ws_limo_humble/src/limo_ros2/limo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ws_limo_humble/install/limo_description
+Invoking command in '/root/ws_limo_humble/build/limo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ws_limo_humble/build/limo_description -- -j12 -l12
+Invoked command in '/root/ws_limo_humble/build/limo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ws_limo_humble/build/limo_description -- -j12 -l12
+Invoking command in '/root/ws_limo_humble/build/limo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ws_limo_humble/build/limo_description
+Invoked command in '/root/ws_limo_humble/build/limo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ws_limo_humble/build/limo_description

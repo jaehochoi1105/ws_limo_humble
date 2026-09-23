@@ -1,0 +1,103 @@
+[0.008s] Invoking command in '/root/ws_limo_humble/build/limo_base': AMENT_PREFIX_PATH=/root/ws_limo_humble/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_limo_humble/install/limo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_limo_humble/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ws_limo_humble/src/limo_ros2/limo_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ws_limo_humble/install/limo_base
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.169s] -- Detecting C compile features
+[0.169s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.244s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.244s] -- Detecting CXX compile features
+[0.244s] -- Detecting CXX compile features - done
+[0.247s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.363s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.412s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.445s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.489s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.494s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.502s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.530s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.580s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.584s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.679s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.707s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.753s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.764s] -- Looking for pthread.h
+[0.825s] -- Looking for pthread.h - found
+[0.825s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.888s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.889s] -- Found Threads: TRUE  
+[0.944s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.959s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.976s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.995s] -- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)
+[1.008s] -- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.101s] -- Found limo_msgs: 0.0.0 (/root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake)
+[1.114s] -- Found tf2_geometry_msgs: 0.25.22 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.133s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.134s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.134s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.137s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[1.205s] -- Configuring done
+[1.223s] -- Generating done
+[1.228s] -- Build files have been written to: /root/ws_limo_humble/build/limo_base
+[1.237s] Invoked command in '/root/ws_limo_humble/build/limo_base' returned '0': AMENT_PREFIX_PATH=/root/ws_limo_humble/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_limo_humble/install/limo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_limo_humble/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ws_limo_humble/src/limo_ros2/limo_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ws_limo_humble/install/limo_base
+[1.238s] Invoking command in '/root/ws_limo_humble/build/limo_base': AMENT_PREFIX_PATH=/root/ws_limo_humble/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_limo_humble/install/limo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_limo_humble/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_limo_humble/build/limo_base -- -j12 -l12
+[1.286s] [ 66%] [32mBuilding CXX object CMakeFiles/tf_pub.dir/src/tf_pub.cpp.o[0m
+[1.286s] [ 66%] [32mBuilding CXX object CMakeFiles/limo_base.dir/src/limo_base_node.cpp.o[0m
+[1.286s] [ 66%] [32mBuilding CXX object CMakeFiles/limo_base.dir/src/limo_driver.cpp.o[0m
+[1.286s] [ 66%] [32mBuilding CXX object CMakeFiles/limo_base.dir/src/serial_port.cpp.o[0m
+[3.603s] [01m[K/root/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:[m[K In member function ‘[01m[Kvoid AgileX::LimoDriver::parseFrame(const AgileX::LimoFrame&)[m[K’:
+[3.603s] [01m[K/root/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:298:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_wheel_odom[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.603s]   298 |             int32_t [01;35m[Kleft_wheel_odom[m[K = (frame.data[3] & 0xff) | (frame.data[2] << 8) |
+[3.603s]       |                     [01;35m[K^~~~~~~~~~~~~~~[m[K
+[3.603s] [01m[K/root/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:300:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright_wheel_odom[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.603s]   300 |             int32_t [01;35m[Kright_wheel_odom[m[K = (frame.data[7] & 0xff) | (frame.data[6] << 8) |
+[3.603s]       |                     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[3.608s] [01m[K/root/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:[m[K In member function ‘[01m[Kvoid AgileX::LimoDriver::publishIMUData(double)[m[K’:
+[3.608s] [01m[K/root/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:489:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpresent_theta_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.608s]   489 |         double [01;35m[Kpresent_theta_[m[K =imu_data_.yaw;
+[3.608s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.608s] [01m[K/root/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:490:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klast_theta_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.608s]   490 |         double [01;35m[Klast_theta_[m[K = imu_data_.yaw;
+[3.608s]       |                [01;35m[K^~~~~~~~~~~[m[K
+[4.829s] [ 83%] [32m[1mLinking CXX executable tf_pub[0m
+[5.018s] [ 83%] Built target tf_pub
+[8.968s] [100%] [32m[1mLinking CXX executable limo_base[0m
+[9.352s] [100%] Built target limo_base
+[9.362s] Invoked command in '/root/ws_limo_humble/build/limo_base' returned '0': AMENT_PREFIX_PATH=/root/ws_limo_humble/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_limo_humble/install/limo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_limo_humble/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_limo_humble/build/limo_base -- -j12 -l12
+[9.363s] Invoking command in '/root/ws_limo_humble/build/limo_base': AMENT_PREFIX_PATH=/root/ws_limo_humble/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_limo_humble/install/limo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_limo_humble/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_limo_humble/build/limo_base
+[9.369s] -- Install configuration: ""
+[9.370s] -- Execute custom install script
+[9.370s] -- Symlinking: /root/ws_limo_humble/install/limo_base/include/limo_base/limo_driver.h
+[9.378s] -- Symlinking: /root/ws_limo_humble/install/limo_base/include/limo_base/limo_protocol.h
+[9.386s] -- Symlinking: /root/ws_limo_humble/install/limo_base/include/limo_base/serial_port.h
+[9.393s] -- Symlinking: /root/ws_limo_humble/install/limo_base/lib/limo_base/limo_base
+[9.401s] -- Symlinking: /root/ws_limo_humble/install/limo_base/lib/limo_base/tf_pub
+[9.409s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base//launch/limo_base.launch.py
+[9.416s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base//launch/open_ydlidar_launch.py
+[9.423s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base//launch/start_limo.launch.py
+[9.430s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base//src/limo_base_node.cpp
+[9.438s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base//src/limo_driver.cpp
+[9.445s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base//src/serial_port.cpp
+[9.452s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base//src/tf_pub.cpp
+[9.459s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/ament_index/resource_index/package_run_dependencies/limo_base
+[9.467s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/ament_index/resource_index/parent_prefix_path/limo_base
+[9.475s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base/environment/ament_prefix_path.sh
+[9.482s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base/environment/ament_prefix_path.dsv
+[9.490s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base/environment/path.sh
+[9.497s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base/environment/path.dsv
+[9.504s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base/local_setup.bash
+[9.511s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base/local_setup.sh
+[9.518s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base/local_setup.zsh
+[9.526s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base/local_setup.dsv
+[9.533s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base/package.dsv
+[9.540s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/ament_index/resource_index/packages/limo_base
+[9.547s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.554s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base/cmake/limo_baseConfig.cmake
+[9.562s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base/cmake/limo_baseConfig-version.cmake
+[9.569s] -- Symlinking: /root/ws_limo_humble/install/limo_base/share/limo_base/package.xml
+[9.579s] Invoked command in '/root/ws_limo_humble/build/limo_base' returned '0': AMENT_PREFIX_PATH=/root/ws_limo_humble/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_limo_humble/install/limo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_limo_humble/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_limo_humble/build/limo_base

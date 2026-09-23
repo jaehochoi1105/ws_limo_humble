@@ -1,0 +1,1 @@
+/root/ws_limo_humble/build/limo_msgs/rosidl_generator_py/limo_msgs/msg/_limo_status_s.c

@@ -1,0 +1,214 @@
+[0.016s] Invoking command in '/root/ws_limo_humble/build/limo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ws_limo_humble/src/limo_ros2/limo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ws_limo_humble/install/limo_msgs
+[0.155s] -- The C compiler identification is GNU 11.4.0
+[0.229s] -- The CXX compiler identification is GNU 11.4.0
+[0.238s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.306s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.306s] -- Detecting C compile features
+[0.307s] -- Detecting C compile features - done
+[0.310s] -- Detecting CXX compiler ABI info
+[0.380s] -- Detecting CXX compiler ABI info - done
+[0.386s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.386s] -- Detecting CXX compile features
+[0.386s] -- Detecting CXX compile features - done
+[0.391s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.517s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.575s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.613s] -- Found std_msgs: 4.9.2 (/opt/ros/humble/share/std_msgs/cmake)
+[0.657s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.664s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.674s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.688s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.707s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.736s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.978s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.269s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.393s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.396s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.417s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.417s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.417s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.417s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.434s] -- Found PythonExtra: .so  
+[1.529s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.555s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.557s] -- Added test 'lint_cmake' to check CMake code style
+[1.558s] -- Added test 'xmllint' to check XML markup files
+[1.562s] -- Configuring done
+[1.597s] -- Generating done
+[1.606s] -- Build files have been written to: /root/ws_limo_humble/build/limo_msgs
+[1.614s] Invoked command in '/root/ws_limo_humble/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ws_limo_humble/src/limo_ros2/limo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ws_limo_humble/install/limo_msgs
+[1.615s] Invoking command in '/root/ws_limo_humble/build/limo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ws_limo_humble/build/limo_msgs -- -j12 -l12
+[1.650s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.659s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.659s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.666s] [  9%] Built target ament_cmake_python_symlink_limo_msgs
+[1.854s] [  9%] Built target limo_msgs__rs
+[1.865s] [  9%] Built target limo_msgs__cpp
+[1.872s] running egg_info
+[1.873s] creating limo_msgs.egg-info
+[1.873s] writing limo_msgs.egg-info/PKG-INFO
+[1.873s] writing dependency_links to limo_msgs.egg-info/dependency_links.txt
+[1.873s] writing top-level names to limo_msgs.egg-info/top_level.txt
+[1.874s] writing manifest file 'limo_msgs.egg-info/SOURCES.txt'
+[1.874s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.874s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.874s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.876s] reading manifest file 'limo_msgs.egg-info/SOURCES.txt'
+[1.876s] writing manifest file 'limo_msgs.egg-info/SOURCES.txt'
+[1.884s] [ 21%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/msg/detail/limo_status__functions.c.o[0m
+[1.909s] [ 21%] Built target ament_cmake_python_build_limo_msgs_egg
+[1.946s] [ 25%] [32m[1mLinking C shared library liblimo_msgs__rosidl_generator_c.so[0m
+[1.984s] [ 25%] Built target limo_msgs__rosidl_generator_c
+[1.995s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.995s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.995s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.069s] [ 37%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/limo_msgs/msg/limo_status__type_support.cpp.o[0m
+[2.084s] [ 40%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/limo_msgs/msg/detail/limo_status__type_support.cpp.o[0m
+[2.091s] [ 43%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/limo_msgs/msg/detail/dds_fastrtps/limo_status__type_support.cpp.o[0m
+[2.189s] [ 46%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/limo_msgs/msg/limo_status__type_support.cpp.o[0m
+[2.220s] [ 50%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_c.so[0m
+[2.221s] [ 53%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/limo_msgs/msg/detail/limo_status__type_support.c.o[0m
+[2.221s] [ 56%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/limo_msgs/msg/detail/limo_status__type_support_c.cpp.o[0m
+[2.258s] [ 59%] [32m[1mLinking C shared library liblimo_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.265s] [ 59%] Built target limo_msgs__rosidl_typesupport_c
+[2.290s] [ 59%] Built target limo_msgs__rosidl_typesupport_introspection_c
+[2.345s] [ 62%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_cpp.so[0m
+[2.385s] [ 62%] Built target limo_msgs__rosidl_typesupport_cpp
+[2.438s] [ 65%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.444s] [ 68%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.498s] [ 68%] Built target limo_msgs__rosidl_typesupport_introspection_cpp
+[2.510s] [ 71%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.514s] [ 71%] Built target limo_msgs__rosidl_typesupport_fastrtps_cpp
+[2.573s] [ 71%] Built target limo_msgs__rosidl_typesupport_fastrtps_c
+[2.590s] [ 71%] Built target limo_msgs
+[2.606s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.835s] [ 75%] Built target limo_msgs__py
+[2.852s] [ 78%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_py.dir/rosidl_generator_py/limo_msgs/msg/_limo_status_s.c.o[0m
+[2.949s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/liblimo_msgs__rosidl_generator_py.so[0m
+[2.984s] [ 81%] Built target limo_msgs__rosidl_generator_py
+[3.001s] [ 90%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.001s] [ 90%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.001s] [ 90%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.088s] [100%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.088s] [100%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.088s] [100%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.123s] [100%] Built target limo_msgs__rosidl_typesupport_introspection_c__pyext
+[3.123s] [100%] Built target limo_msgs__rosidl_typesupport_c__pyext
+[3.123s] [100%] Built target limo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.134s] Invoked command in '/root/ws_limo_humble/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ws_limo_humble/build/limo_msgs -- -j12 -l12
+[3.135s] Invoking command in '/root/ws_limo_humble/build/limo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ws_limo_humble/build/limo_msgs
+[3.142s] -- Install configuration: ""
+[3.142s] -- Execute custom install script
+[3.142s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/rosidl_interfaces/limo_msgs
+[3.151s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__functions.h
+[3.158s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.h
+[3.166s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.h
+[3.172s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.h
+[3.180s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.187s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/library_path.sh
+[3.194s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/library_path.dsv
+[3.201s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_c.h
+[3.208s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.215s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__builder.hpp
+[3.222s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.hpp
+[3.230s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__traits.hpp
+[3.237s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.hpp
+[3.245s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.hpp
+[3.252s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.260s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_cpp.hpp
+[3.267s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.274s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_c.h
+[3.282s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.289s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_cpp.hpp
+[3.296s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/pythonpath.sh
+[3.303s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/pythonpath.dsv
+[3.311s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.318s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.325s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.333s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.341s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/__init__.py
+[3.349s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c
+[3.356s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.363s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.370s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/liblimo_msgs__rosidl_generator_py.so
+[3.376s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.383s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.390s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.397s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/__init__.py
+[3.404s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status.py
+[3.411s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status_s.c
+[3.418s] -- Up-to-date symlink: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.418s] -- Up-to-date symlink: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.418s] -- Up-to-date symlink: /root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.419s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/rust_packages/limo_msgs
+[3.426s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/Cargo.toml
+[3.433s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/build.rs
+[3.440s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/src/lib.rs
+[3.448s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/src/msg.rs
+[3.455s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/src/msg/rmw.rs
+[3.463s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/msg/LimoStatus.idl
+[3.470s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/msg/LimoStatus.msg
+[3.477s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/package_run_dependencies/limo_msgs
+[3.484s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/parent_prefix_path/limo_msgs
+[3.491s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.sh
+[3.497s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.dsv
+[3.504s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/path.sh
+[3.511s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/path.dsv
+[3.519s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/local_setup.bash
+[3.525s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/local_setup.sh
+[3.533s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/local_setup.zsh
+[3.540s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/local_setup.dsv
+[3.548s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/package.dsv
+[3.555s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/packages/limo_msgs
+[3.562s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake-extras.cmake
+[3.570s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.577s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.584s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.591s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.598s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.605s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.612s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[3.619s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig.cmake
+[3.626s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig-version.cmake
+[3.633s] -- Symlinking: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/package.xml
+[3.641s] -- Installing: /root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so
+[3.641s] -- Set runtime path of "/root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so" to ""
+[3.641s] -- Installing: /root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so
+[3.642s] -- Set runtime path of "/root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.642s] -- Installing: /root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.642s] -- Set runtime path of "/root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.642s] -- Installing: /root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so
+[3.643s] -- Set runtime path of "/root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.643s] -- Installing: /root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so
+[3.643s] -- Set runtime path of "/root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so" to ""
+[3.643s] -- Installing: /root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so
+[3.644s] -- Set runtime path of "/root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.644s] -- Installing: /root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so
+[3.644s] -- Set runtime path of "/root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so" to ""
+[3.673s] Listing '/root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs'...
+[3.673s] Compiling '/root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/__init__.py'...
+[3.673s] Listing '/root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg'...
+[3.673s] Compiling '/root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/__init__.py'...
+[3.673s] Compiling '/root/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status.py'...
+[3.676s] -- Installing: /root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_py.so
+[3.677s] -- Set runtime path of "/root/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_py.so" to ""
+[3.677s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport.cmake
+[3.678s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.678s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.678s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.678s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cppExport.cmake
+[3.679s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.679s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.679s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.679s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.680s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport.cmake
+[3.680s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.680s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.680s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.681s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport.cmake
+[3.681s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.681s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport.cmake
+[3.681s] -- Installing: /root/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.684s] Invoked command in '/root/ws_limo_humble/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ws_limo_humble/build/limo_msgs
